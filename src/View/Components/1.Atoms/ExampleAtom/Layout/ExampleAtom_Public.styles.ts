@@ -1,6 +1,6 @@
 import { Styles } from "Styles/Styles";
 import { CSSObject } from "@emotion/react";
-import { StylesInterface } from "../../../../../Logic/Core/Modules/Styles/Styles.interface";
+import { StylesInterface } from "Logic/Core/Modules/Styles/Styles.interface";
 
 class ExampleAtom_PublicStyles extends Styles {
 	public wrapper: CSSObject = {

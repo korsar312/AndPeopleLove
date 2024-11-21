@@ -12,14 +12,7 @@ export interface IComponent extends Pick<AnimatePresenceProps, "mode"> {
 	extStyle?: TDeepCSSObject;
 }
 
-export type TBaseAnimationType =
-	| "slice"
-	| "sliceBlockUnAbs"
-	| "sliceBlock"
-	| "carouselLeft"
-	| "carouselRight"
-	| "carouselLeftRight"
-	| "carouselRightLeft";
+export type TBaseAnimationType = "slice";
 
 const Index: FC<IComponent> = (props) => {
 	const model = BaseAnimationModel(props);

@@ -1,14 +1,14 @@
 import { IComponent } from "./index";
 import UseCases from "Logic/Core/UseCases/UseCases";
 
-function HomePageModel(props: IComponent) {
+function TestPageModel(props: IComponent) {
 	const {} = props;
 
 	function handleClick() {
-		UseCases.interactor("router", "goLink", "TEST_PAGE");
+		UseCases.interactor("router", "goLink", "HOME_PAGE");
 	}
 
 	return { handleClick };
 }
 
-export default HomePageModel;
+export default TestPageModel;

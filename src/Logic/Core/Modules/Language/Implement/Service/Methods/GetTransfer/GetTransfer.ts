@@ -1,5 +1,5 @@
 import { LanguageInterface } from "../../../../Language.interface";
-import { WordTransferList } from "../../../../../../../Config/ConfigLists/WordTransferList";
+import { WordTransferList } from "Logic/Config/ConfigLists/WordTransferList";
 
 export class GetTransfer {
 	static execute() {

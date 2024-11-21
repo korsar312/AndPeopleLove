@@ -1,5 +1,5 @@
 import UseCases from "../../../UseCases";
-import API from "../../../../API/API";
+import API from "Logic/Core/API/API";
 
 export class WebsocketIsConnect {
 	static execute(moduleChoicer: typeof UseCases) {

@@ -1,6 +1,6 @@
 import { UserDomain } from "./Domain/User.domain";
 import { UserService } from "./Service/User.service";
-import Creators from "../../../Helpers/Creators/Creators";
+import Creators from "Logic/Core/Helpers/Creators/Creators";
 
 const Modules = () =>
 	Creators.createModule("UserModule", {

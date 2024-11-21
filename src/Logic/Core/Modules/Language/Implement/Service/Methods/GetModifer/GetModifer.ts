@@ -1,5 +1,5 @@
 import { LanguageInterface } from "../../../../Language.interface";
-import { WordModifyList } from "../../../../../../../Config/ConfigLists/WordModifyList";
+import { WordModifyList } from "Logic/Config/ConfigLists/WordModifyList";
 
 export class GetModifer {
 	static execute() {

@@ -7,8 +7,8 @@ const Index: FC<IComponent> = (props) => {
 	const {} = props;
 
 	const propsComponent: IExampleSubstances = {
-		onClickOne: () => alert(1),
-		onClickTwo: () => alert(2),
+		onClickOne: () => console.log(1),
+		onClickTwo: () => console.log(2),
 	};
 
 	return <ExampleSubstances {...propsComponent} />;

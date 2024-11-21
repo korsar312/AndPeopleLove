@@ -1,7 +1,7 @@
 import styles from "./ExampleAtom_Public.styles";
 import ExampleAtomModel from "../ExampleAtom.model";
 import { NFC } from "Logic/Libs/Util/TypesUtils";
-import Text from "../../../0.Cores/Text";
+import Text from "View/Components/0.Cores/Text";
 import { StylesInterface } from "Logic/Core/Modules/Styles/Styles.interface";
 
 const ExampleAtom_Public: NFC<typeof ExampleAtomModel> = (props) => {

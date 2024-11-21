@@ -1,4 +1,4 @@
-import APIRequest from "../../../../../../API/API";
+import APIRequest from "Logic/Core/API/API";
 import { UserInterface } from "../../../../User.interface";
 
 export class RequestRenewToken {

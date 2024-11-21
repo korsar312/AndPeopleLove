@@ -10,6 +10,7 @@ export namespace RouteInterfaces {
 	 */
 	export const PathName = {
 		HOME_PAGE: ``,
+		TEST_PAGE: `test`,
 		ERROR_PAGE: `*`,
 	} as const;
 

@@ -1,4 +1,4 @@
-import APIRequest from "../../../../../../API/API";
+import APIRequest from "Logic/Core/API/API";
 
 export class RequestLogoff {
 	static execute() {
