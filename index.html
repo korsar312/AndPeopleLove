@@ -4,10 +4,54 @@
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+		<link rel="stylesheet" href="src/MIU/style.css">
 		<title>SexInAss</title>
 	</head>
 	<body>
-		<div id="root"></div>
+
+	<div class="container" id="cr">
+		<div class="form-container sign-up">
+			<form>
+				<h1>Create Account</h1>
+				<div class="iconsTelegram_Vk">
+				</div>
+				<span>Введите Email для регистрации</span>
+				<input type="Text" placeholder="Name" />
+				<input type="email" placeholder="Email" />
+				<input type="password" placeholder="Password" />
+				<button>Регистрация</button>
+			</form>
+		</div>
+		<div class="form-container sign-in">
+			<form>
+				<h1>Sign In</h1>
+				<div class="iconsTelegram_Vk">
+				</div>
+				<span>Используй свои данные</span>
+				<input type="email" placeholder="Email" />
+				<input type="password" placeholder="Password" />
+				<a href="#">Forgot your password?</a>
+				<button>Войти</button>
+			</form>
+		</div>
+		<div class="overlay"></div>
+			<div class="overlay-panel toggle-left">
+				<h1>Добро пожаловать!</h1>
+				<p>Введите свои личные данные</p>
+				<button class="ghost" id="signIn"></button>
+			</div>
+			<div class="overlay-panel toggle-right"
+				<h1>Привет!</h1>
+				<p>Зарегистрируйтесь</p>
+				<button class="ghost" id="register">Войти</button>
+			</div>
+		</div>
+	</div>
+
+
+
 		<script type="module" src="/src/main.tsx"></script>
+
 	</body>
 </html>
