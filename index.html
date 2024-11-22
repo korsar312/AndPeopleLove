@@ -1,57 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-		<link rel="stylesheet" href="src/MIU/style.css">
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="icon" type="image/svg+xml" href="/vite.svg"/>
 		<title>SexInAss</title>
+
+		<script src="src/MIU/swiper-bundle.js" defer></script>
+		<link rel="stylesheet" href="src/MIU/swiper-bundle.min.css">
+
+		<link rel="stylesheet" href="src/MIU/main.css">
+		<script src="src/MIU/app.js" defer></script>
 	</head>
 	<body>
+		<div class="wrapper">
+			<header class="container">
+				<span class="logo">Я люблю людей</span>
+				<nav>
+					<ul>
+						<li class="btn"><a href="#">Home</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Новое</a></li>
+						<li class="active"><a href="#">Важно знать</a></li>
+					</ul>
+				</nav>
+			</header>
 
-	<div class="container" id="cr">
-		<div class="form-container sign-up">
-			<form>
-				<h1>Create Account</h1>
-				<div class="iconsTelegram_Vk">
+			<div class="hero container">
+				<div class="hero--info">
+					<h2>Я люблю людей..</h2>
+					<h1>Тут описание ебучей игры или что-то ещё</h1>
+					<p>Суть всей хуйни(Общее)</p>
+					<button class="btn">Попробовать</button>
 				</div>
-				<span>Введите Email для регистрации</span>
-				<input type="Text" placeholder="Name" />
-				<input type="email" placeholder="Email" />
-				<input type="password" placeholder="Password" />
-				<button>Регистрация</button>
-			</form>
-		</div>
-		<div class="form-container sign-in">
-			<form>
-				<h1>Sign In</h1>
-				<div class="iconsTelegram_Vk">
-				</div>
-				<span>Используй свои данные</span>
-				<input type="email" placeholder="Email" />
-				<input type="password" placeholder="Password" />
-				<a href="#">Forgot your password?</a>
-				<button>Войти</button>
-			</form>
-		</div>
-		<div class="overlay"></div>
-			<div class="overlay-panel toggle-left">
-				<h1>Добро пожаловать!</h1>
-				<p>Введите свои личные данные</p>
-				<button class="ghost" id="signIn"></button>
-			</div>
-			<div class="overlay-panel toggle-right"
-				<h1>Привет!</h1>
-				<p>Зарегистрируйтесь</p>
-				<button class="ghost" id="register">Войти</button>
+				<img src="" alt="">
 			</div>
 		</div>
-	</div>
-
-
-
-		<script type="module" src="/src/main.tsx"></script>
-
 	</body>
 </html>
