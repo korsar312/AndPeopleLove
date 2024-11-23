@@ -15,7 +15,10 @@ enum Weight {
 
 // 1-ксо 2-роснефть 3-башнефть
 export const FontList: StylesInterface.TFont = {
-	Mont_M_36: createFont(62, 78, Family.Montserrat, Weight.Medium),
+	Mont_B_10: createFont(10, 16, Family.Montserrat, Weight.Bold),
+	Mont_M_10: createFont(10, 16, Family.Montserrat, Weight.Medium),
+	Mont_M_14: createFont(14, 16, Family.Montserrat, Weight.Medium),
+	Mont_M_36: createFont(36, 40, Family.Montserrat, Weight.Medium),
 };
 
 function createFont(fontSize: number, lineHeight: number, fontFamily: Family, fontWeight: Weight) {

@@ -18,6 +18,9 @@ export namespace StylesInterface {
 	export type TColor = Record<EColor, TColorHEXFormat>;
 
 	export enum EFont {
+		Mont_B_10 = "Mont_B_10",
+		Mont_M_10 = "Mont_M_10",
+		Mont_M_14 = "Mont_M_14",
 		Mont_M_36 = "Mont_M_36",
 	}
 
